@@ -1,11 +1,29 @@
- header {
-   background-color: black;
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-pack: center;
-   -ms-flex-pack: center;
-   justify-content: center;
- }
+/* how to create a variable in scss 
+ Lets say we have 20 different buttons on our site and if we decide to change the color we might
+ have to visit 20 different pages to update is
+ hence instead we create a variable and just update the variavle color
+ this will implement changes in all of the files.
+ lets create a variable now
+ */
+header {
+  background-color: rgba(65, 63, 57, 0.933);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
- /*# sourceMappingURL=style.css.map */
+header button {
+  color: rgba(230, 201, 115, 0.933);
+}
+
+.contact button {
+  background-color: rgba(65, 63, 57, 0.933);
+}
+
+.class-info p {
+  color: rgba(44, 44, 42, 0.933);
+}
+/*# sourceMappingURL=style.css.map */

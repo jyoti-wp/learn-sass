@@ -38,4 +38,16 @@ header button {
 header button:hover {
   background: grey;
 }
+
+.contact {
+  background-color: aqua;
+}
+
+.contact button {
+  padding: 5px;
+}
+
+.contact button::after {
+  content: "Wassup";
+}
 /*# sourceMappingURL=style.css.map */

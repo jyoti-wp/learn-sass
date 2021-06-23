@@ -57,3 +57,18 @@
          }
      }
  }
+
+ // you can also ad after
+
+
+ .contact {
+     background-color: aqua;
+
+     button {
+         padding: 5px;
+
+         &::after {
+             content: "Wassup";
+         }
+     }
+ }

@@ -1,5 +1,27 @@
-header {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-}
+ /* how to create a variable in scss 
+ Lets say we have 20 different buttons on our site and if we decide to change the color we might
+ have to visit 20 different pages to update is
+ hence instead we create a variable and just update the variavle color
+ this will implement changes in all of the files.
+ lets create a variable now
+ */
+
+ $primaryBtn: rgba(230, 201, 115, 0.933);
+ $backgroundColor: rgba(65, 63, 57, 0.933);
+ ;
+
+ // now lets use this variable in out header style content 
+
+ header {
+     background-color: $backgroundColor; /// of we want to update a different color we change is above where the variable is declared
+     display: flex;
+     justify-content: center;
+ }
+
+ header button {
+     color: $primaryBtn
+ }
+
+ .contact button {
+     background-color: $backgroundColor;
+ }

@@ -33,3 +33,13 @@
  .class-info p {
      color: $textColor; // you can assign different text colors for different pages or paras without having to code too much
  }
+
+ //   second thing we can do it nest values 
+ //   lets see how
+
+ header {
+
+     h1 {
+         font-size: 40px;
+     }
+ }

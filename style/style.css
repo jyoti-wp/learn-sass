@@ -26,4 +26,8 @@ header button {
 .class-info p {
   color: rgba(44, 44, 42, 0.933);
 }
+
+header h1 {
+  font-size: 40px;
+}
 /*# sourceMappingURL=style.css.map */

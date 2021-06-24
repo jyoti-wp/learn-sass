@@ -1,0 +1,11 @@
+header {
+
+    button {
+        padding: 10px;
+
+        // you can add an & sign and add hover 
+        &:hover {
+            background: grey;
+        }
+    }
+}

@@ -5,6 +5,14 @@
  this will implement changes in all of the files.
  lets create a variable now
  */
+header button {
+  padding: 10px;
+}
+
+header button:hover {
+  background: grey;
+}
+
 header {
   background-color: rgba(65, 63, 57, 0.933);
   display: -webkit-box;
@@ -29,14 +37,6 @@ header button {
 
 header h1 {
   font-size: 40px;
-}
-
-header button {
-  padding: 10px;
-}
-
-header button:hover {
-  background: grey;
 }
 
 .contact {

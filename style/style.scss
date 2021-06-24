@@ -6,6 +6,8 @@
  lets create a variable now
  */
 
+ @import './header';
+
  $primaryBtn: rgba(230, 201, 115, 0.933);
  $backgroundColor: rgba(65, 63, 57, 0.933);
  $textColor: rgba(44, 44, 42, 0.933);
@@ -46,17 +48,6 @@
 
  //  lets see how to add hover 
 
- header {
-
-     button {
-         padding: 10px;
-
-         // you can add an & sign and add hover 
-         &:hover {
-             background: grey;
-         }
-     }
- }
 
  // you can also ad after
 
@@ -72,3 +63,10 @@
          }
      }
  }
+
+
+ /// now incase if the file is too long and you wanna split it. heres how you do it.
+
+ //  create another file and than add the path to the main file
+
+ // you can accordingly create files and add them to the stylesheet
